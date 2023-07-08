@@ -1,0 +1,11 @@
+div{
+    height: 400px;
+}
+
+.Background-flag{
+    
+    /* background-image: url(./image/indian-flag-ashok-chakra-suitable-600w-2112077543.webp); */
+    background: linear-gradient(rgba(255, 166, 0, 0.863),rgba(255, 255, 255, 0.936),rgba(0, 128, 0, 0.872)), url(./image/indian-flag-ashok-chakra-suitable-600w-2112077543.webp); 
+    background-repeat: no;
+}
+
