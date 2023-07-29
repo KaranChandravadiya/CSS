@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            background-color: khaki;
+            height: 800px;
+            display: grid;
+            row-gap: 10px;
+            column-gap: 10px;
+            /* grid-template-rows: 200px 200px 200px;
+            grid-template-columns: 200px 200px 200px; */
+            /* grid-template-rows: repeat(4,1fr);
+            grid-template-columns: repeat(4,1fr); */
+            grid-template-rows: 150px 1fr 1fr 150px 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .box{
+            /* width: 100px;
+            height: 100px; */
+            background-color: orange;
+            /* margin: 5px; */
+        }
+        #header{
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            /* grid-column: span 3; */
+        }
+        #section{
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #sec-3{
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        #foot{
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+    
+<section>
+    <div class="box" id="header">header</div>
+    <div class="box" id="section">section</div>
+    <div class="box" id="sec-3">sec-3</div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box" id="foot">foot</div>
+    <!-- <div class="box"></div>
+    <div class="box"></div>
+     -->
+</section>
+    
+</body>
+</html>
